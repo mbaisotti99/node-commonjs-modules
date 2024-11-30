@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "names": "node --watch names.js",
-    "hobbies": "node --watch hobbies.js"
+    "hobbies": "node --watch hobbies.js",
+    "app": "node --watch app.js"
   },
   "author": "M Baisotti",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }

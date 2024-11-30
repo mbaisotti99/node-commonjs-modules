@@ -3,6 +3,7 @@
 
 import functions from "./names.js";
 import functionz from "./hobbies.js";
+import chalk from "chalk";
 
 const buildPerson = () =>{
     let person = {
@@ -13,3 +14,5 @@ const buildPerson = () =>{
 }
 
 console.log(buildPerson());
+
+console.log(chalk.bgGreen(buildPerson())); //????????????????????????
